@@ -26,8 +26,8 @@ const List = () => {
         <TextField title="Name" label="Имя" value={name} onChange={(e) => setName(e.target.value)}/>
         <TextField title="Email" label="email" value={email} onChange={(e) => setEmail(e.target.value)}/>
       </div>
-      <text>{errorMessage ? errorMessage : isLoggedIn}</text>
-      <text>{userData?.email}</text>      
+      <div>{errorMessage ? errorMessage : isLoggedIn}</div>
+      <div>{userData?.email}</div>            
     </div>
   )
 };

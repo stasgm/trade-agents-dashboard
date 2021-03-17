@@ -25,11 +25,11 @@ export const LoginAction = (
     let response: IUserPayload = {};
     dispatch(loginIsPending());
 
-    if (username === 'aymen') {
+    if (username === 'Tanya') {
       if (password === '123') {
         response = {
           userData: {
-            username: 'aymen',
+            username: 'Tanya',
             email: 'mohamedaymen.ourabi@gmail.com',            
           },
           token: '2auyeiuahiuui87998',
