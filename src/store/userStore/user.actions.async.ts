@@ -30,9 +30,9 @@ export const LoginAction = (
         response = {
           userData: {
             username: 'Tanya',
-            email: 'mohamedaymen.ourabi@gmail.com',            
+            email: 'tatyana@gmail.com',            
           },
-          token: '2auyeiuahiuui87998',
+          token: '2auyeiuahiuui99999',
         };
         localStorage.setItem('token', String(response.token));
         return dispatch(loginSuccess(response));
