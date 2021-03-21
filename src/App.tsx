@@ -6,13 +6,15 @@ import { Provider } from 'react-redux'
 // import { Store } from 'redux'
 import { configureStore } from './store/store';
 import List from './List';
+import CssBaseline from '@material-ui/core/CssBaseline/CssBaseline';
 
 function App() {
   const store = configureStore();
 
   return (
     <Provider store={store}>
-      <List />
+      <CssBaseline />
+      <List/>
     </Provider>
   );
 }
